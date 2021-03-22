@@ -33,13 +33,12 @@ h4 {
 header {
  margin: 50px;
  padding-top: 20px;
-/* text-align: center;*/
-text-align: right;
+ text-align: right;
 }
 
 footer {
 margin: 50px;
-/*text-align: center;*/
+
 
 }
 /*joke container & joke formatting*/
