@@ -11,15 +11,42 @@ img {
 	max-width: 100%;
 }
 
+h1 {
+	font-family: sans-serif;
+	color:#FFDAB9;
+
+}
 h2 {
 	font-family: sans-serif;
 	color: #FF4500;
 }
 
+h4 {
+	font-family: sans-serif;
+	color:#FFDAB9;
+}
+
+.title {
+	color: #FFDAB9;
+}
+
+header {
+ margin: 50px;
+ padding-top: 20px;
+/* text-align: center;*/
+text-align: right;
+}
+
+footer {
+margin: 50px;
+/*text-align: center;*/
+
+}
 /*joke container & joke formatting*/
 .joke {
-	margin: 20px;
-	padding: 20px;
+
+	margin: 50px;
+	padding: 40px;
 
 	align-content: center;
 	text-align: center;
@@ -32,13 +59,36 @@ h2 {
 /*button*/
 .refreshing {
 
- background-color: #A0522D; /* Sienna */
+  background-color: #A0522D; 
   border: none;
   color: white;
-  padding: 15px 32px;
+
+  margin-top: 20px;
+  padding: 15px 30px;
+  box-shadow: 5px 5px white;
+
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  font-family: sans-serif;
   font-size: 16px;
 
+}
+
+/*api link button*/
+.api_link {
+
+	background-color: #FFDAB9;
+	border: none;
+	color: #A0522D;
+
+	margin-top: 10px;
+	padding: 15px 20px;
+	box-shadow: 5px 5px #A0522D;
+
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 16px;
 }

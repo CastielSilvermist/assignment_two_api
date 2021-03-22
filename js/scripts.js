@@ -16,9 +16,5 @@ xhr.onload = function(){
 
 
 		 $(".joke").prepend("<img src='" + data.icon_url + "'><h2>" + data.value + "</h2><p>" + data.updated_at + "</p>")
-
-		 	
-
-
 			}
 	}
